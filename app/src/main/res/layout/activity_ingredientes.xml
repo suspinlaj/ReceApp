@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ingredientes">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGREDIENTES"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <CheckBox
+        android:id="@+id/chkbx1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pan integral"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244" />
+
+    <CheckBox
+        android:id="@+id/chkbx2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aguacate maduro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.723"
+        app:layout_constraintStart_toEndOf="@+id/chkbx1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244" />
+
+    <CheckBox
+        android:id="@+id/chkbx3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zumo de limón"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chkbx1"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <CheckBox
+        android:id="@+id/chkbx4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toEndOf="@+id/chkbx3"
+        app:layout_constraintTop_toBottomOf="@+id/chkbx2"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <CheckBox
+        android:id="@+id/chkbx5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="espinacas frescas&quot;"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.207"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chkbx3"
+        app:layout_constraintVertical_bias="0.088" />
+
+    <CheckBox
+        android:id="@+id/chkbx6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tomate grande"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintStart_toEndOf="@+id/chkbx5"
+        app:layout_constraintTop_toBottomOf="@+id/chkbx4"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <CheckBox
+        android:id="@+id/chkbx7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mozzarella fresca"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chkbx5"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <CheckBox
+        android:id="@+id/chkbx8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="albahaca"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.308"
+        app:layout_constraintStart_toEndOf="@+id/chkbx7"
+        app:layout_constraintTop_toBottomOf="@+id/chkbx6"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <CheckBox
+        android:id="@+id/chkbx9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        android:text="aceite de oliva"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chkbx11"
+        app:layout_constraintVertical_bias="0.507" />
+
+    <CheckBox
+        android:id="@+id/chkbx10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pimienta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toEndOf="@+id/chkbx11"
+        app:layout_constraintTop_toBottomOf="@+id/chkbx8"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <CheckBox
+        android:id="@+id/chkbx11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="huevo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chkbx7"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <Button
+        android:id="@+id/btnAtrasIngredientes"
+        android:layout_width="137dp"
+        android:layout_height="57dp"
+        android:text="Atras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chkbx9" />
+</androidx.constraintlayout.widget.ConstraintLayout>
