@@ -5,42 +5,115 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TITULO"
-        android:textSize="90sp"
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="422dp"
+        android:layout_height="892dp"
+        android:alpha="0.7"
+        android:src="@drawable/fondo2"
+        android:layout_marginEnd="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.144" />
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/soda"
+        android:text="App"
+        android:textColor="#B8865B"
+        android:textSize="126sp"
+        android:translationX="6dp"
+        android:layout_marginStart="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Rece" />
+
+    <TextView
+        android:id="@+id/App"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/soda"
+        android:text="App"
+        android:textColor="#A3DEE9"
+        android:textSize="120sp"
+        android:translationX="3dp"
+        android:layout_marginStart="105dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Rece" />
+
+    <TextView
+        android:id="@+id/Rece"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/soda"
+        android:text="Rece"
+        android:textColor="#B8865B"
+        android:textSize="124sp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/soda"
+        android:text="Rece"
+        android:textColor="#F4E678"
+        android:textSize="120sp"
+        android:translationX="7dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="82dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnRecetas"
-        android:layout_width="195dp"
-        android:layout_height="99dp"
+        android:layout_width="224dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="130dp"
+        android:backgroundTint="#F4E678"
+        android:fontFamily="@font/vanilla"
+        android:onClick="onClickRecetas"
         android:text="Recetas"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:cornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.141" />
+        app:layout_constraintTop_toBottomOf="@+id/App"
+        app:strokeColor="#B8865B"
+        app:strokeWidth="4dp" />
 
     <Button
         android:id="@+id/btnIngredientes"
-        android:layout_width="187dp"
-        android:layout_height="102dp"
+        android:layout_width="224dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#A3DEE9"
+        android:fontFamily="@font/vanilla"
+        android:onClick="onClickIngredientes"
         android:text="Ingredientes"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:cornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRecetas"
-        app:layout_constraintVertical_bias="0.208" />
+        app:strokeColor="#B8865B"
+        app:strokeWidth="4dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
