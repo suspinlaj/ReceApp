@@ -16,10 +16,8 @@
         android:src="@drawable/fondo2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,175 +27,188 @@
         android:textColor="#B8865B"
         android:textSize="55sp"
         android:translationY="7sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.067" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
+        android:id="@+id/tituloIngrediente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
         android:fontFamily="@font/coffee"
         android:text="Ingredientes"
         android:textColor="#A3DEE9"
         android:textSize="55sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.07" />
-
-    <CheckBox
-        android:id="@+id/chkbx1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="pan integral"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.172"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.244" />
-
-    <CheckBox
-        android:id="@+id/chkbx2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="aguacate maduro"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.723"
-        app:layout_constraintStart_toEndOf="@+id/chkbx1"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.244" />
-
-    <CheckBox
-        android:id="@+id/chkbx3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Zumo de limón"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.187"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chkbx1"
-        app:layout_constraintVertical_bias="0.078" />
-
-    <CheckBox
-        android:id="@+id/chkbx4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.314"
-        app:layout_constraintStart_toEndOf="@+id/chkbx3"
-        app:layout_constraintTop_toBottomOf="@+id/chkbx2"
-        app:layout_constraintVertical_bias="0.078" />
-
-    <CheckBox
-        android:id="@+id/chkbx5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="espinacas frescas&quot;"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.207"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chkbx3"
-        app:layout_constraintVertical_bias="0.088" />
-
-    <CheckBox
-        android:id="@+id/chkbx6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="tomate grande"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.376"
-        app:layout_constraintStart_toEndOf="@+id/chkbx5"
-        app:layout_constraintTop_toBottomOf="@+id/chkbx4"
-        app:layout_constraintVertical_bias="0.086" />
-
-    <CheckBox
-        android:id="@+id/chkbx7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="mozzarella fresca"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chkbx5"
-        app:layout_constraintVertical_bias="0.126" />
-
-    <CheckBox
-        android:id="@+id/chkbx8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="albahaca"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.308"
-        app:layout_constraintStart_toEndOf="@+id/chkbx7"
-        app:layout_constraintTop_toBottomOf="@+id/chkbx6"
-        app:layout_constraintVertical_bias="0.128" />
-
-    <CheckBox
-        android:id="@+id/chkbx9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="140dp"
-        android:text="aceite de oliva"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chkbx11"
-        app:layout_constraintVertical_bias="0.507" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <CheckBox
-        android:id="@+id/chkbx10"
+    <GridLayout
+        android:id="@+id/grid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pimienta"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.57"
-        app:layout_constraintStart_toEndOf="@+id/chkbx11"
-        app:layout_constraintTop_toBottomOf="@+id/chkbx8"
-        app:layout_constraintVertical_bias="0.157" />
-
-    <CheckBox
-        android:id="@+id/chkbx11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="huevo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.155"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/tituloIngrediente"
+        android:columnCount="2"
+        android:rowCount="6"
+        android:paddingStart="4dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toTopOf="@id/btnAtrasIngredientes"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chkbx7"
-        app:layout_constraintVertical_bias="0.157" />
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <CheckBox
+            android:id="@+id/chk1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Sal"
+            android:textSize="20sp"
+            android:fontFamily="@font/sunrise"
+            android:layout_margin="15dp"
+            android:buttonTint="@color/checkbox_colors"/>
+
+        <CheckBox
+            android:id="@+id/chk2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Aguacate"
+            android:textSize="20sp"
+            android:fontFamily="@font/sunrise"
+            android:layout_margin="15dp"
+            android:buttonTint="@color/checkbox_colors"/>
+
+        <CheckBox
+            android:id="@+id/chk3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Pan Integral"
+            android:textSize="20sp"
+            android:fontFamily="@font/sunrise"
+            android:layout_margin="15dp"
+            android:buttonTint="@color/checkbox_colors"/>
+
+        <CheckBox
+            android:id="@+id/chk4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Pimienta"
+            android:textSize="20sp"
+            android:fontFamily="@font/sunrise"
+            android:layout_margin="15dp"
+            android:buttonTint="@color/checkbox_colors"/>
+
+        <CheckBox
+            android:id="@+id/chk5"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Mozzarella"
+            android:textSize="20sp"
+            android:fontFamily="@font/sunrise"
+            android:layout_margin="15dp"
+            android:buttonTint="@color/checkbox_colors"/>
+
+        <CheckBox
+            android:id="@+id/chk6"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Tomates"
+            android:textSize="20sp"
+            android:fontFamily="@font/sunrise"
+            android:layout_margin="15dp"
+            android:buttonTint="@color/checkbox_colors"/>
+
+        <CheckBox
+            android:id="@+id/chk7"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Espinacas"
+            android:textSize="20sp"
+            android:fontFamily="@font/sunrise"
+            android:layout_margin="15dp"
+            android:buttonTint="@color/checkbox_colors"/>
+
+        <CheckBox
+            android:id="@+id/chk8"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Huevo"
+            android:textSize="20sp"
+            android:fontFamily="@font/sunrise"
+            android:layout_margin="15dp"
+            android:buttonTint="@color/checkbox_colors"/>
+
+        <CheckBox
+            android:id="@+id/chk9"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Zumo de Limón"
+            android:textSize="20sp"
+            android:fontFamily="@font/sunrise"
+            android:layout_margin="15dp"
+            android:buttonTint="@color/checkbox_colors"/>
+
+        <CheckBox
+            android:id="@+id/chk10"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Albahaca"
+            android:textSize="20sp"
+            android:fontFamily="@font/sunrise"
+            android:layout_margin="15dp"
+            android:buttonTint="@color/checkbox_colors"/>
+
+        <CheckBox
+            android:id="@+id/chk11"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Aceite de Oliva"
+            android:textSize="20sp"
+            android:fontFamily="@font/sunrise"
+            android:layout_margin="15dp"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center"
+            android:buttonTint="@color/checkbox_colors"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="220dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#A3DEE9"
+        android:fontFamily="@font/vanilla"
+        android:onClick="onClickSiguiente"
+        android:text="Siguiente"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toTopOf="@id/btnAtrasIngredientes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#B8865B"
+        app:strokeWidth="4dp" />
 
     <Button
         android:id="@+id/btnAtrasIngredientes"
-        android:layout_width="220dp"
-        android:layout_height="56dp"
+        android:layout_width="155dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="50dp"
         android:backgroundTint="#F4E678"
         android:fontFamily="@font/vanilla"
+        android:onClick="onClickAtras"
         android:text="Atrás"
         android:textColor="@color/white"
-        android:textSize="29sp"
+        android:textSize="25sp"
         app:cornerRadius="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chkbx9"
-        app:layout_constraintVertical_bias="0.525"
         app:strokeColor="#B8865B"
         app:strokeWidth="4dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

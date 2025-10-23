@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
 
     fun onClickRecetas(vista : View) {
         val intent = Intent(this, Progreso::class.java)
+        intent.putExtra("origen", "main")
         startActivity(intent)
     }
 

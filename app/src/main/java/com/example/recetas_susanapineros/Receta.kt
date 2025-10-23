@@ -1,12 +1,11 @@
 package com.example.recetas_susanapineros
 
+import android.content.Context
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.example.recetas_susanapineros.databinding.ActivityProgresoBinding
 import com.example.recetas_susanapineros.databinding.ActivityRecetaBinding
+import org.json.JSONObject
 
 class Receta : AppCompatActivity() {
 
@@ -17,5 +16,25 @@ class Receta : AppCompatActivity() {
         binding = ActivityRecetaBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+
+        val nombreReceta = intent.getStringExtra("nombreReceta")
+        binding.tvNombreReceta.text = nombreReceta
+    }
+
+
+
+
+            //val plato = intent.getStringExtra("nombreReceta")
+
+
+
+    fun onClickAtras(vista : View) {
+        intent.setClass(this, Progreso::class.java)
+        intent.putExtra("origen", "receta")
+        startActivity(intent)
+    }
+    fun onClickInicio(vista : View) {
+        intent.setClass(this, MainActivity::class.java)
+        startActivity(intent)
     }
 }
