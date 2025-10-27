@@ -10,16 +10,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="422dp"
-        android:layout_height="892dp"
+        style="@style/FondoPantallas"
         android:alpha="0.3"
-        android:src="@drawable/fondo2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:id="@+id/titulo2"
@@ -28,7 +24,7 @@
         android:text="Receta"
         android:fontFamily="@font/coffee"
         android:textSize="70sp"
-        android:textColor="#B8865B"
+        android:textColor="@color/marroncito"
         android:layout_marginTop="65dp"
         android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +38,7 @@
         android:text="Receta"
         android:fontFamily="@font/coffee"
         android:textSize="70sp"
-        android:textColor="#A3DEE9"
+        android:textColor="@color/azulito"
         android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,22 +51,17 @@
         android:text="Nombre Receta"
         android:fontFamily="@font/sunrise"
         android:textSize="35sp"
-        android:textColor="#8E6746"
+        android:textColor="@color/marroncito"
         android:textAlignment="center"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="26dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titulo2" />
 
     <TextView
         android:id="@+id/ingredientes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="Ingredientes"
-        android:textSize="30sp"
-        android:layout_marginTop="50dp"
-        android:fontFamily="@font/sunrise"
-        android:textColor="#8E6746"
+        style="@style/TextViewRecetaTitulo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvNombreReceta"
@@ -78,81 +69,53 @@
 
     <TextView
         android:id="@+id/descripcion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="Descripción"
-        android:textSize="30sp"
-        android:fontFamily="@font/sunrise"
+        style="@style/TextViewRecetaTitulo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="20dp"
-        android:textColor="#8E6746"
         app:layout_constraintTop_toBottomOf="@+id/tvIngredientes"
         />
 
     <TextView
         android:id="@+id/tvIngredientes"
-        android:layout_width="341dp"
-        android:layout_height="166dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/sunrise"
+        style="@style/TextViewRecetaRellenable"
+        android:layout_width="371dp"
+        android:layout_height="160dp"
         android:text=""
-        android:textAlignment="center"
-        android:textColor="#5D5D5D"
-        android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingredientes" />
 
     <TextView
         android:id="@+id/tvDescripcion"
-        android:layout_width="372dp"
-        android:layout_height="149dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/sunrise"
+        style="@style/TextViewRecetaRellenable"
+        android:layout_width="382dp"
+        android:layout_height="194dp"
         android:text=" "
-        android:textAlignment="center"
-        android:textColor="#5D5D5D"
-        android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/descripcion" />
 
     <Button
         android:id="@+id/btnInicio"
-        android:layout_width="220dp"
-        android:layout_height="56dp"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="#A3DEE9"
-        android:fontFamily="@font/vanilla"
+        style="@style/BotonAzul"
         android:onClick="onClickInicio"
+        android:layout_marginBottom="20dp"
         android:text="Inicio"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        app:cornerRadius="25dp"
         app:layout_constraintBottom_toTopOf="@id/btnAtrasIngredientes"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:strokeColor="#B8865B"
-        app:strokeWidth="4dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnAtrasIngredientes"
-        android:layout_width="155dp"
-        android:layout_height="49dp"
+        style="@style/BotonAmarillo"
         android:layout_marginBottom="50dp"
-        android:backgroundTint="#EDDF71"
-        android:fontFamily="@font/vanilla"
         android:onClick="onClickAtras"
         android:text="Atrás"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:cornerRadius="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:strokeColor="#B8865B"
-        app:strokeWidth="4dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 

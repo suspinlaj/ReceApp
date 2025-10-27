@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/soda"
         android:text="Rece"
-        android:textColor="#EDDF71"
+        android:textColor="@color/amarillito"
         android:textSize="120sp"
         android:translationX="7dp"
         android:layout_marginTop="120dp"
@@ -84,7 +84,7 @@
         android:layout_width="224dp"
         android:layout_height="75dp"
         android:layout_marginTop="130dp"
-        android:backgroundTint="#EDDF71"
+        android:backgroundTint="@color/amarillito"
         android:fontFamily="@font/vanilla"
         android:onClick="onClickRecetas"
         android:text="Recetas"
@@ -94,7 +94,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/App"
-        app:strokeColor="#B8865B"
+        app:strokeColor="@color/marroncito"
         app:strokeWidth="4dp" />
 
     <Button
@@ -102,7 +102,7 @@
         android:layout_width="224dp"
         android:layout_height="75dp"
         android:layout_marginTop="70dp"
-        android:backgroundTint="#A3DEE9"
+        android:backgroundTint="@color/azulito"
         android:fontFamily="@font/vanilla"
         android:onClick="onClickIngredientes"
         android:text="Ingredientes"
@@ -112,7 +112,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRecetas"
-        app:strokeColor="#B8865B"
+        app:strokeColor="@color/marroncito"
         app:strokeWidth="4dp" />
 
 
