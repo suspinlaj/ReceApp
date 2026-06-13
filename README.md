@@ -32,9 +32,9 @@ Finalizado. Proyecto educativo completado con la lógica de cálculo de ingredie
   &nbsp;
   <img src="https://github.com/user-attachments/assets/8717b331-f365-4d86-98ec-7100be345ad6" width="160" alt="Selector de Ingredientes" />
   &nbsp;
-  <img src="https://github.com/user-attachments/assets/ab5f6081-3082-4bd9-ad58-24017009553d" width="160" alt="Resultados y Porcentajes" />
-  &nbsp;
   <img src="https://github.com/user-attachments/assets/f5932a86-2594-4919-a51d-126c4f683e34" width="160" alt="Lista de Recetas" />
   &nbsp;
   <img src="https://github.com/user-attachments/assets/92170d01-ce1c-4bcd-abbc-f8a369687b70" width="160" alt="Detalle de Receta" />
+  &nbsp;
+  <img src="https://github.com/user-attachments/assets/ab5f6081-3082-4bd9-ad58-24017009553d" width="160" alt="Resultados y Porcentajes" />
 </p>
