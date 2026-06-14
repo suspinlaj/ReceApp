@@ -20,7 +20,7 @@ Este proyecto fue desarrollado como ejercicio práctico para la asignatura de **
 
 - **Lenguaje**: Kotlin
 - **Entorno de pruebas / Emulador**: Medium Phone
-- **Enfoque destacado**: Lógica de filtrado de datos y actualización dinámica de UI.
+- **Enfoque destacado**: Lógica de filtrado de datos y actualización dinámica de UI
 
 ## ⚙️ **Estado del proyecto**
 
