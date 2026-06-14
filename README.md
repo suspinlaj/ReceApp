@@ -14,7 +14,7 @@ Este proyecto fue desarrollado como ejercicio práctico para la asignatura de **
   - 🟢 **Verde:** Tienes el 100% de los ingredientes (¡Lista para cocinar!).
   - 🔴 **Rojo:** Te faltan algunos ingredientes.
   - 🟤 **Marrón:** No tienes los ingredientes necesarios.
-- **Detalle de Receta**: Pantalla individual para cada plato que muestra la lista completa de ingredientes necesarios y los pasos de preparación detallados.
+- **Detalle de Receta**: Pantalla individual para cada plato que muestra la lista completa de ingredientes necesarios y los pasos de preparación detallados
 
 ## 💻 **Tecnologías y Entorno**
 
